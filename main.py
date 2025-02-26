@@ -75,7 +75,7 @@ def process_wallet(private_key, rpc_url, chain_id, min_tx=50, max_tx=65):
 
 # Основная функция
 def main():
-    private_keys = read_private_keys("C:\\soft\\soneium\\private_keys.txt")  # путь к файлу с приватными ключами
+    private_keys = read_private_keys("private_keys.txt")  # путь к файлу с приватными ключами
     rpc_url = "https://soneium.drpc.org"
     chain_id = 1868
     
